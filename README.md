@@ -8,7 +8,7 @@ For this, I recommend you sign up for a Free Azure Account and get Azure credits
 ### Prerequisites
 
 - A Github account
-- An Azure Free Account with an Azure Tenant already setup
+- An Azure Free Account with an Azure Tenant already setup - You can use your GitHub account for Single-Sign on if it is not already been used for a trial in the past.
 - A credit card for ID check when signing up with Microsoft.  *I am not responsible for anyone not using low or free tier with credits*
 - Familarise yourself with [a Azure Naming convention](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-abbreviations).  Using a consistent naming convention is desirable
 
@@ -101,3 +101,5 @@ Using your platform of choice, install some form of monitoring on your webapp an
 ### Remember
 
 Implementing better controls, documenting and understanding your workflow is the intention of this exercise, you are not expected to implement a production grade deployment with all considerations highlighted, that will be for when you are hired :wink:
+
+Keep all your code inside a Git repository and be ready to demonstrate your solution when complete!
