@@ -53,11 +53,13 @@ For this challenge, you need to setup an automation tool to run pipelines  and C
 
 I would suggest using Azure DevOps or GitHub Actions, but again, this is open to interpretation for the engineer to provide a sufficient solution.
 
+**It is highly recomended you consider your branching and GitOps strategy, it is inadvisable to allow anything to run except a CI on a push to main, consider a merge strategy**
+
 Please consider least privilege and proper security controls when setting this up.  Ensure sufficient documentation is available on your steps.
 
 ## Challenge 3: Cloud Engineer Task: Terraform development
 
-With terraform, provision an environment similar to that which follows:
+With terraform, provision an environment similar to that which follows in the CyberScot-Hw-Mvp subscription:
 
 ![azure-challenge](docs/img/drawio/azure-challenge.png)
 
@@ -68,6 +70,8 @@ With terraform, provision an environment similar to that which follows:
 3. Document what you've done with comments, README's and or diagrams where appropriate.  No such thing as too much documentation!
 
 4. **DO NO** allow 3389 or 22 exposed to the internet on your VM. Only 8080 on the Linux VM should be exposed to the internet
+
+5. Consider the setup of your Backend, e.g. `backend.tf` and Provider blocks, e.g. `provider.tf` carefully.
 
 ## Challenge 4: Automation Task - Start/Stop VMs on a schedule
 
@@ -82,7 +86,7 @@ Using a language of your choice, write a simple API using good coding practices 
 
 - Using a containerization platform of your choosing, package your API in, for example, a `docker` or `podman` container with proper consideration for CI/CD, automation and image updating.  You may choose to upload this to Docker Hub or similar if you wish.
 
-- The container should be ran inside the Linux VM with port 8080 being accepted externally, but port 80 accepted exposed from the container.
+- The container should be ran inside the Linux VM with port 8080 externally. but should run 2021 internally. 
 
 - Document your solution fully and write considerations to be made in regards to DevOps automation, security etc.
 
