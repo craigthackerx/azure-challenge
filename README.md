@@ -8,9 +8,9 @@ For this, I recommend you sign up for a Free Azure Account and get Azure credits
 ### Prerequisites
 
 - A Github account
-- An Azure Free Account with an Azure Tenant already setup - You can use your GitHub account for Single-Sign on if it is not already been used for a trial in the past.
+- An Azure Free Account with an Azure AD Tenant - You can use your GitHub account for Single-Sign on if it is not already been used for a trial in the past.
 - A credit card for ID check when signing up with Microsoft.  *I am not responsible for anyone not using low or free tier with credits*
-- Familarise yourself with [a Azure Naming convention](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-abbreviations).  Using a consistent naming convention is desirable
+- Familarise yourself with [a Azure Naming convention](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-abbreviations).  Using a consistent naming convention is desirable.
 
 All of these challenges can be attempted in any order you wish, and attempting one before another could be considered more optimal depending on your solution. Be aware that solutions which go above and beyond the requirements are going to validate your own learning, so don't hold back and be ready to make justifications, it is intentional the questions are open ended.
 
@@ -74,7 +74,7 @@ With terraform, provision an environment similar to that which follows:
 For the next ask, you need to implement a way for your Windows Virtual machine to be turned off at 8pm every night and started at 8am every morning.  This should be fully automated, and you should fully document how you would achieve this and implement it.
 
 
-## Challenge 4: DevOps Task - Write some application code & package
+## Challenge 5: DevOps Task - Write some application code & package
 
 Using a language of your choice, write a simple API using good coding practices to serve a Hello World API inside the Linux VM.
 
@@ -88,7 +88,7 @@ Using a language of your choice, write a simple API using good coding practices 
 
 - You may wish to complete challenge 3 and 4 side by side to prep your VM for a fully automated deployment and proper CI/CD and GitOps, this is open to interpretation
 
-## Challenge 5: Operations Task - Monitor your application
+## Challenge 6: Operations Task - Monitor your application
 
 Using your platform of choice, install some form of monitoring on your webapp and test for availability of the app, this data should be displayed in a dashboard.
 
