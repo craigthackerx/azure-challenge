@@ -53,7 +53,7 @@ For this challenge, you need to setup an automation tool to run pipelines  and C
 
 I would suggest using Azure DevOps or GitHub Actions, but again, this is open to interpretation for the engineer to provide a sufficient solution.
 
-**It is highly recomended you consider your branching and GitOps strategy, it is inadvisable to allow anything to run except a CI on a push to main, consider a merge strategy**
+**It is highly recommended you consider your branching and GitOps strategy, it is inadvisable to allow anything to run except a CI on a push to main, consider a merge strategy**
 
 Please consider least privilege and proper security controls when setting this up.  Ensure sufficient documentation is available on your steps.
 
